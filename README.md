@@ -1,4 +1,4 @@
-**Dear [Her Name],**
+**Dear Crystal,**
 
 Happy Birthday to my favorite **programmer girlfriend**—the one who debugged my heart and optimized my happiness algorithm! 🎉❤️
 
@@ -24,6 +24,6 @@ Happy birthday to the most beautiful compiler of my joy, debugger of my bad days
 Now go blow out those candles and make a wish! (But I’m already wishing for us to keep coding this amazing story together forever.)
 
 With all my heart (and CPU cycles),  
-[Your Name]  
+Cody
 
 P.S. You’re the only `girl` in my `friend` list who gets to call herself a **programmer girlfriend**—and that makes you truly **one-of-a-kind**.
