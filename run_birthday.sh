@@ -1,7 +1,13 @@
 #!/bin/bash
 
+# Helper function to print with a delay
+print_line() {
+  echo "$1"
+  sleep 0.2  # Adjust the delay as needed
+}
+
 # Birthday Banner
-echo "
+banner="
                                               YYYY            YY
 HHHHH         HHHHH                             YYY          YYYY
 HHHHH         HHHHH                  PP PPPPPP   YYY         YYY
@@ -48,48 +54,46 @@ BBBBBBBBBBBBBB       TTTT  HH     HH    YYYYYYYYYYYYYYYYYYYYYYYY
                           HHHH   HHHH   YYYYYYYYYYYYYYYYYYYYYY
 "
 
+# Print banner line by line
+while IFS= read -r line; do
+  print_line "$line"
+done <<< "$banner"
+
 # Birthday Message
-echo "Happy Birthday to my favorite programmer girlfriend, Crystal! 🎉❤️"
-echo "You're the one who debugged my heart and optimized my happiness algorithm. 💻💖"
-echo ""
-
-# Infinite loop of love
-echo "Running love loop..."
-while true
-do
-  echo "My love for you = $(shuf -i 100-1000 -n 1)% of Infinity 🚀"
-  sleep 1
-done & 
-LOOP_PID=$!
-
-# Birthday insights
-echo ""
-echo ">>> SYSTEM INSIGHTS <<<"
-echo "Dataset: My Heart"
-echo "Variable: LoveForYou"
-echo "Status: OverflowError 😘"
-echo "Stack trace: CupidError > LoveModule ❤️"
-echo ""
-
-# Celebrating with love
-echo "Final Action: Celebrating your amazing birthday!"
-echo "🎁 Stack of gifts and love overflowing! (No segfaults here 😉)"
-echo ""
-
-# Fun fact about love
-echo "Fun Fact: Did you know that an unsigned 64-bit integer maxes out at 18,446,744,073,709,551,615? Not enough to measure my love for you. 🥰"
+print_line "Happy Birthday to my favorite programmer girlfriend, Crystal! 🎉❤️"
+print_line "You're the one who debugged my heart and optimized my happiness algorithm. 💻💖"
+print_line ""
 
 # Countdown to next birthday
-echo ""
-echo "Countdown to your next birthday celebration:"
-echo "T-minus $(($(date --date='2025-11-19' +%s) - $(date +%s))) seconds 🚀"
+print_line "Countdown to your next birthday celebration:"
+print_line "T-minus $(($(date --date='2025-11-19' +%s) - $(date +%s))) seconds 🚀"
+print_line ""
 
-# Stop the infinite loop after showing the love
-sleep 10
-kill $LOOP_PID
-echo "Infinite loop of love terminated (but the love continues forever ❤️)."
+# Simulate the love loop temporarily
+print_line "Running love loop for a moment..."
+for i in {1..10}; do
+  print_line "My love for you = $(shuf -i 100-1000 -n 1)% of Infinity 🚀"
+  sleep 1
+done
+
+# Birthday insights
+print_line ""
+print_line ">>> SYSTEM INSIGHTS <<<"
+print_line "Dataset: My Heart"
+print_line "Variable: LoveForYou"
+print_line "Status: OverflowError 😘"
+print_line "Stack trace: CupidError > LoveModule ❤️"
+print_line ""
+
+# Celebrating with love
+print_line "Final Action: Celebrating your amazing birthday!"
+print_line "🎁 Stack of gifts and love overflowing! (No segfaults here 😉)"
+print_line ""
+
+# Fun fact about love
+print_line "Fun Fact: Did you know that an unsigned 64-bit integer maxes out at 18,446,744,073,709,551,615? Not enough to measure my love for you. 🥰"
 
 # Final message
-echo ""
-echo "Happy Birthday, Crystal! You’re my compiler of joy, debugger of bad days, and lifelong commit partner. ❤️"
-echo "Love you to the moon and back. float('inf') love for you. 🥰"
+print_line ""
+print_line "Happy Birthday, Crystal! You’re my compiler of joy, debugger of bad days, and lifelong commit partner. ❤️"
+print_line "Love you to the moon and back. float('inf') love for you. 🥰"
