@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Set locale to UTF-8
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 echo "Happy Birthday to my favorite programmer girlfriend, Crystal! 🎉❤️"
 echo "You're the one who debugged my heart and optimized my happiness algorithm. 💻💖"
 echo ""
