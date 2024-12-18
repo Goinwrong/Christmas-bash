@@ -18,7 +18,7 @@ We welcome contributions in the following ways:
 2. **Clone the Repository**  
    Clone the forked repository to your local machine:
    ```
-   git clone https://github.com/your-username/programmer-girlfriend.git
+   git clone https://github.com/Cod-e-codes/programmer-girlfriend.git
    ```
 
 3. **Set Up the Environment**  
