@@ -18,7 +18,7 @@ banner="
  .'.o.'.'.o.
 .o.'.o.'.o.'.
    [_____]
-   \\___/  
+    \\___/  
 "
 
 # Print banner line by line
@@ -27,43 +27,39 @@ while IFS= read -r line; do
 done <<< "$banner"
 
 # Christmas Message
-print_line "Merry Christmas to my favorite programmer girlfriend, Crystal! 🎄❤️"
-print_line "You’re the elf that keeps my heart coding happily and my days merry and bright. 💻🎅"
+print_line "Merry Christmas and Happy Holidays! 🎄✨"
+print_line "May your days be merry and bright, and your code be bug-free! 💻🎁"
 print_line ""
 
-# Countdown to Christmas 2025
-next_christmas=$(date --date="2025-12-25" +%s)
-current_time=$(date +%s)
-seconds_left=$((next_christmas - current_time))
-print_line "Countdown to next Christmas celebration:"
-print_line "T-minus $seconds_left seconds 🎁"
+# Countdown to New Year
+print_line "Countdown to the New Year celebration:"
+print_line "T-minus $(($(date --date='2025-01-01' +%s) - $(date +%s))) seconds 🚀"
 print_line ""
 
-# Simulate Christmas cheer
-print_line "Running Christmas cheer loop for a moment..."
+# Simulating holiday cheer
+print_line "Spreading holiday cheer for a moment..."
 for i in {1..10}; do
-  print_line "My holiday cheer = $(shuf -i 100-1000 -n 1)% of Maximum 🎄✨"
+  print_line "Holiday spirit level = $(shuf -i 100-1000 -n 1)% of Joy! 🎉"
   sleep 1
 done
 
-# Christmas insights
+# Festive insights
 print_line ""
 print_line ">>> SYSTEM INSIGHTS <<<"
-print_line "Dataset: Christmas Spirit"
-print_line "Variable: LoveForCrystal"
-print_line "Status: OverflowError 🎅❤️"
-print_line "Stack trace: SantaError > LoveModule 💖"
+print_line "Dataset: Holiday Spirit"
+print_line "Variable: JoyLevel"
+print_line "Status: OverflowError 🥳"
+print_line "Stack trace: SantaError > CheerModule 🎅"
 print_line ""
 
-# Celebrating with joy
-print_line "Final Action: Celebrating this magical holiday with you!"
-print_line "🎁 A sleigh full of gifts, love, and joy (no glitches, only Christmas magic 🎅)."
+# Celebrating the season
+print_line "Final Action: Embracing the holiday season!"
+print_line "🎁 Wishing you all the love, joy, and peace this season brings!"
 print_line ""
 
-# Fun fact about Christmas cheer
-print_line "Fun Fact: Even Santa’s sleigh can’t carry enough gifts to match how much I love you. 🥰"
+# Fun fact about joy
+print_line "Fun Fact: Did you know that the North Pole's happiness index is always at 100% during this season? Let’s keep it that way! 🥰"
 
 # Final message
 print_line ""
-print_line "Merry Christmas, Crystal! You’re my coder of happiness, debugger of bad moments, and lifelong partner in every holiday season. ❤️"
-print_line "Love you to the North Pole and back. float('inf') love for you. 🎄❤️"
+print_line "Merry Christmas and Happy New Year! 🎄✨ May your 2025 be filled with success, joy, and lots of coding adventures! 💻🥳"
