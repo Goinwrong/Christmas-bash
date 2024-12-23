@@ -21,7 +21,7 @@ Celebrate the holiday season with this cheerful bash script that spreads festive
    ```
 3. **Run the Script**:
    ```bash
-   ./christmas-bash.sh
+   ./christmas_bash.sh
    ```
    Ensure the script has executable permissions:
    ```bash
