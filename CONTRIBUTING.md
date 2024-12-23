@@ -1,7 +1,7 @@
 
-# Contributing to Programmer Girlfriend
+# Contributing to Christmas bash
 
-Thank you for considering contributing to Programmer Girlfriend! Your contributions are greatly appreciated. Before contributing, please take a moment to read through this guide.
+Thank you for considering contributing to Christmas-bash! Your contributions are greatly appreciated. Before contributing, please take a moment to read through this guide.
 
 ## How Can You Contribute?
 
@@ -18,7 +18,7 @@ We welcome contributions in the following ways:
 2. **Clone the Repository**  
    Clone the forked repository to your local machine:
    ```
-   git clone https://github.com/Cod-e-codes/programmer-girlfriend.git
+   git clone https://github.com/goinwrong/Christmas-bash.git
    ```
 
 3. **Set Up the Environment**  
